@@ -1,3 +1,12 @@
+Script: snmp.sh
+Autor: Arturo Mata <arturo.mata@gmail.com>
+Version: 1.0.0
+Repositorio: https://github.com/matarturo/
+Released under the GNU General Public License WITHOUT ANY WARRANTY.
+See LICENSE.TXT for details.
+
+# Script escrito en bash shell para detectar servicios SNMP en servidores en producción
+
 #!/bin/bash
 if [ $# != 1 ]
 then
